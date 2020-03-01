@@ -28,7 +28,7 @@
       }
     },
     "scripts": {
-      "test": ["phpunit "],
+      "test": ["vendor/bin/phpunit --coverage-clover=coverage.xml"],
       "benchmark": ["php tests/Benchmark/run-benchmarks.php"]
     }
 }
